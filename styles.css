@@ -1,0 +1,278 @@
+body,p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+
+}
+
+.page-container {
+    height: 100vh;
+    display: flex;
+}
+
+.left-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color:  #0a90ce;
+    color: white;
+    font-weight: 700;
+    padding:16px;
+}
+
+.dashboard-nav-link {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.dashboard-icon {
+    width: 32px;
+    height: 32px;
+    fill: white;
+}
+.sidebar-link  {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.sidebar-link svg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+}
+.sidebar-main-links {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-main-links svg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+}
+
+.sidebar-setting-links {
+    margin-top: 120px;
+}
+
+.right-container {
+   flex:4;   
+   display: flex;
+   flex-direction: column;
+}
+
+.top-nav {
+    background-color: #fff;
+    padding: 16px 32px;
+   
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-info-container {
+    display: flex; 
+    align-items: center;
+    gap: 16px;
+}
+
+.bell-icon {
+    height: 20px;
+    width: 20px;
+}
+.user-info-container img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-container {
+    display: flex;
+    margin-top: 24px;
+}
+
+.left-user-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.user-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    color: gray;
+}
+
+.right-user-container {
+    display: flex;
+    margin-left: auto;
+    gap: 12px;
+}
+
+.right-user-container button {
+    background-color: #0a90ce;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-weight: 700;
+    margin:auto;
+}
+
+.bottom-container {
+    flex: 1;
+    display: flex;
+    background-color: #c1c1c1;
+    gap:32px;
+    padding:16px;
+
+}
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+ .search-bar {
+    display:flex;
+    gap:8px;
+    align-items: center;
+    background-color: #c1c1c1;
+    padding: 8px 16px;
+    border-radius: 16px;
+    max-width: 200px;
+    min-width: 200px;
+    height: 16px;
+ }
+.search-icon {
+    width: 16px;
+    height: 16px;
+    stroke:#828282;
+    fill: #828282;;
+}
+.search-text {
+    color: #828282;
+   
+}
+.button {
+    background-color: #0a90ce;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-weight: 700;
+    margin:auto;
+}
+.button.dark {
+    background-color: #014363
+}
+
+.bottom-container {
+    flex:1;
+    display:flex;
+    gap:16px;
+    padding:16px;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.right-sidebar {
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    /* margin: 0; */
+}
+
+.right-sidebar h4 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.annoucement-container {
+    margin-top: 16px;
+    padding:16px;
+    background-color: white;
+    border-radius: 16px;
+    margin-right: 32px;
+}
+
+.annoucement-container .gray{
+    color:rgb(84,84,84);
+}
+
+.trending-container{
+    margin-top: 0;
+    padding:16px;
+    background-color: white;
+    border-radius: 16px;
+    margin-right: 32px;
+}
+.trending-profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 4px 0;
+}
+
+.top-margin{
+    margin-top: 16px;
+}
+
+.projects-grid {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+    align-items: stretch;
+}
+
+.projects-grid > div {
+    background-color: white;
+    padding: 16px;
+    border-radius: 16px;
+    border-left: 4px solid gold;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-grid > div:nth-child(2) .project-icons,
+.projects-grid > div:nth-child(3) .project-icons,
+.projects-grid > div:nth-child(4) .project-icons,
+.projects-grid > div:nth-child(6) .project-icons {
+    margin-top: 16px;
+}
+
+
+.projects-grid p {
+    color:gray;
+}
+
+.project-icons {
+    display: flex;
+    gap: 8px;
+    margin-top: auto;
+}
+
+
+.project-icons svg {
+    width: 20px;
+    height: 20px;
+}
+annoucement-container h5 {
+    font-weight: 700;
+}
